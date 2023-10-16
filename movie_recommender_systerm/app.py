@@ -1,8 +1,8 @@
 import streamlit as st
 import pickle as pkl
 import pandas as pd
-movies=pkl.load(open('/Users/nitishkumar/Desktop/ML_projects/movie_dict1.pkl','rb'))
-similarity=pkl.load(open('/Users/nitishkumar/Desktop/ML_projects/similarity.pkl','rb'))
+movies=pkl.load(open('movie_dict1.pkl','rb'))
+similarity=pkl.load(open('similarity.pkl','rb'))
 # print(type(eval(movies_dict)))
 # movies=pd.DataFrame(eval(movies_dict))
 st.title('Movie Recommender System')
